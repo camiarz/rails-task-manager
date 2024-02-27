@@ -1,0 +1,6 @@
+ <h2 class="card-title"><%= @task.title %></h2>
+ <p class="card-text"><%= @task.details %></p>
+ <p class="card-text"><%= @task.completed %></p>
+ <%= link_to "List", tasks_path, class: "text-dark" %>
+ <%=link_to "Edit", edit_task_path %>
+ <%=link_to "Delete", edit_task_path %>
